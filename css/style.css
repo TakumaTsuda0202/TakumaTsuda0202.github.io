@@ -224,6 +224,7 @@ li {
 }
 .modal__content{
   display: flex;
+  align-items: flex-start;
   height: auto;
   background: #f5f0f0;
   left: 50%;
@@ -240,6 +241,7 @@ li {
 
 .works-image-wrapper {
   display: flex;
+  align-items: flex-start;
   margin-right: 40px;
   object-fit: cover;
   height: auto;
@@ -257,7 +259,6 @@ li {
   height: auto;
   width: 58%;
   padding: 5% 2%;
-  align-self: flex-start;
 }
 
 .modal p {
