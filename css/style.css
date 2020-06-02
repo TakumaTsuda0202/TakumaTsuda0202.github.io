@@ -229,7 +229,6 @@ li {
   background: #f5f0f0;
   left: 50%;
   padding: 40px;
-  position: absolute;
   top: 50%;
   transform: translate(-50%,-50%);
   width: 95%;
@@ -237,6 +236,7 @@ li {
   -webkit-overflow-scrolling: touch;
   max-height: calc(100vh - 4.9em);
   z-index: 12;
+  position: relative;
 }
 
 .works-image-wrapper {
@@ -267,7 +267,9 @@ li {
 }
 
 .modal a{
-  display: block;
+  position: absolute;
+  right: 3%;
+  top: 3%;
 }
 
 /*--------------------------------
