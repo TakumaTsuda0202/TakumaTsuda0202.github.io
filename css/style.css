@@ -241,6 +241,7 @@ li {
   display: flex;
   margin-right: 40px;
   object-fit: cover;
+  height: auto;
 }
 
 .modal__img{
