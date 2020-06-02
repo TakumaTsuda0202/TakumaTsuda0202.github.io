@@ -257,6 +257,7 @@ li {
   height: auto;
   width: 58%;
   padding: 5% 2%;
+  align-self: flex-start;
 }
 
 .modal p {
